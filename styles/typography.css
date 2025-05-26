@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500;700&display=swap');
+
+/* Typography Variables */
+:root {
+  /* Font Families */
+  --font-montserrat: 'Montserrat', sans-serif;
+  --font-fraunces: 'Fraunces', serif;
+
+  /* Font Weights */
+  --weight-regular: 500;
+  --weight-bold: 700;
+
+  /* Base Font Size */
+  --font-size-body: 14px;
+}

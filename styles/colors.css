@@ -1,0 +1,23 @@
+/* 
+The :root selector in CSS targets the highest-level element in the document—usually the 
+<html> element. It is commonly used to define CSS custom properties (also known as CSS variables) 
+that you want to be available globally throughout your stylesheet.
+Why use :root?
+Global Scope:
+    Variables defined in :root can be accessed from anywhere in your CSS, making them ideal for 
+    things like colors, fonts, and spacing that you want to reuse throughout your project.
+Easy Theming:
+    You can easily update a color, font, or other property in one place, and it will update everywhere 
+    that variable is used.
+*/
+/* Primary Colors */
+:root {
+  --green-500: hsl(158, 36%, 37%);
+  --green-700: hsl(158, 42%, 18%);
+
+  /* Neutral Colors */
+  --black: hsl(212, 21%, 14%);
+  --grey: hsl(228, 12%, 48%);
+  --cream: hsl(30, 38%, 92%);
+  --white: hsl(0, 0%, 100%);
+}
