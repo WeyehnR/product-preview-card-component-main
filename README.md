@@ -12,6 +12,14 @@ A responsive product preview card built as a Frontend Mentor challenge. This pro
 - **Pixel-Perfect:** Matches the provided Figma design specs for all breakpoints.
 - **Interactive:** Button includes hover, active, and focus-visible states for a consistent experience across devices.
 
+## Try it on your phone!
+
+Scan the QR code below to open this project on your mobile device:
+
+![QR Code to open the site](./images/product_review_qr_code.png)
+
+Or visit: [https://weyehnr.github.io/product-preview-card-component-main/](https://weyehnr.github.io/product-preview-card-component-main/)
+
 ## Technologies Used
 
 - HTML5
