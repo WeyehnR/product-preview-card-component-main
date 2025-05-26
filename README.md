@@ -71,3 +71,60 @@ Or visit: [https://weyehnr.github.io/product-preview-card-component-main/](https
 
 ---
 
+## Reflection
+
+### What I'm Most Proud Of
+- Achieving a fully responsive, pixel-perfect design that matches the Figma specs.
+- Ensuring accessibility and keyboard navigation for all users.
+- Structuring CSS for maintainability and scalability using design tokens and separation of concerns.
+- Debugging and learning from real-world CSS cascade and specificity issues.
+
+### What I'd Do Differently Next Time
+- Start with a mobile-first approach from the beginning.
+- Consider using a CSS preprocessor or utility framework for larger projects.
+- Add automated accessibility and visual regression testing.
+- Break the UI into reusable components if using a JS framework.
+- Further optimize assets and add more documentation.
+
+## Challenges Encountered & How I Overcame Them
+
+### 1. CSS Cascade and Specificity Issues
+**Challenge:** The mobile layout wasn't activating as expected; the card remained in a horizontal (desktop) layout even on small screens.
+
+**How I Overcame It:** By separating layout/responsive styles into `layout.css` and keeping only visual styles in `components.css`, I restored the intended mobile-first, responsive behavior.
+
+---
+
+### 2. Responsive Breakpoints for Real Devices
+**Challenge:** The initial mobile media query breakpoint was too narrow (400px), so the mobile layout didn't activate on many real devices.
+
+**How I Overcame It:** I expanded the breakpoints to cover a wider range of devices, ensuring the mobile layout would activate for all popular phones and tablets.
+
+---
+
+### 3. Maintaining Consistent Units
+**Challenge:** The project started with a mix of `px` and `rem` units, which could lead to inconsistent scaling and maintainability issues.
+
+**How I Overcame It:** I refactored all fixed pixel values to use `rem` units, making the design more scalable, accessible, and consistent across devices.
+
+---
+
+### 4. Ensuring Button Interactivity Across Devices
+**Challenge:** CSS `:hover` states don't work on touch devices, so the button's interactive feedback was missing on mobile and tablet.
+
+**How I Overcame It:** I added `:active` and `:focus-visible` states to the button, ensuring that users on all devices (mouse, touch, keyboard) get consistent interactive feedback.
+
+---
+
+### 5. Debugging and Iterative Testing
+**Challenge:** It was sometimes unclear why a style wasn't applying as expected, especially with overlapping CSS files and media queries.
+
+**How I Overcame It:** I used browser DevTools extensively, tested with multiple device presets, and iteratively refined the CSS structure. I also asked for and reviewed the full CSS files to spot and resolve conflicts.
+
+---
+
+### 6. Following Figma Specs Closely
+**Challenge:** Translating Figma's exact spacing, sizing, and color tokens into maintainable CSS required attention to detail and sometimes multiple iterations.
+
+**How I Overcame It:** I used CSS custom properties (design tokens) and double-checked all values against the Figma specs, ensuring pixel-perfect implementation.
+
