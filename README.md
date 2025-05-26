@@ -128,3 +128,17 @@ Or visit: [https://weyehnr.github.io/product-preview-card-component-main/](https
 
 **How I Overcame It:** I used CSS custom properties (design tokens) and double-checked all values against the Figma specs, ensuring pixel-perfect implementation.
 
+
+## Questions & Feedback
+
+I'm looking for feedback on the following areas:
+
+- Responsive layout: Does the card look and function well on all devices? Any edge cases?
+- Accessibility: Any issues for screen readers, keyboard users, or color contrast?
+- CSS architecture: Is my separation of layout and component styles clear? Are my design tokens effective?
+- Code quality: Any redundant code or ways to simplify?
+- Performance: Any optimizations for images or CSS?
+- Interactivity: Is the button feedback clear and consistent?
+- General: Any modern techniques or best practices I could apply?
+
+**Please be as specific as possible—your input will help me improve!**
